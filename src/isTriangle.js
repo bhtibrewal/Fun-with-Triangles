@@ -1,4 +1,4 @@
-const input = document.querySelectorAll(".angle");
+const input = document.querySelectorAll(".input");
 const checkBtn = document.querySelector("#check-btn");
 const outputText = document.querySelector("#output");
 
