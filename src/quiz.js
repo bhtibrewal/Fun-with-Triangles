@@ -16,6 +16,9 @@ function calculateScore() {
         index++;
 
     }
-    output.innerHTML = "Your score is : " + score + " Correct Answers Question 1 = 90°, Question 2 = right angled, Question 3 = 60°";
+    output.innerHTML = `Your score is : ${score} 
+    Correct Answers: Question 1 = 90°,
+    Question 2 = right angled,
+    Question 3 = 60°`;
 }
 submit.addEventListener("click", calculateScore);
