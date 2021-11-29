@@ -11,7 +11,8 @@ function calculateScore() {
     const formResults = new FormData(quizForm);
 
     for (let value of formResults.values()) {
-        if (value === undefined);
+        if (value === "") alert('fill the form');
+
         if (value === correctAns[index])
             score++;
         index++;
